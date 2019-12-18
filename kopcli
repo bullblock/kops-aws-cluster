@@ -1,0 +1,8 @@
+#!/bin/sh
+set -x
+KOPS_COMMAND=`which kops`
+if [ $KOPS_CMMAND = "" ]
+then
+  exit
+fi
+
